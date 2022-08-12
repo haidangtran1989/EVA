@@ -1,0 +1,8 @@
+numpy
+pytrec_eval
+tensorflow
+transformers
+tf-models-official
+torch
+faiss-cpu
+faiss-gpu
