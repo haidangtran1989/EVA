@@ -9,6 +9,7 @@ This supports us to maximize the chance of matching documents with potential fut
 
 Please set up Python 3.9 for EVA, additionally we need to install several dependencies as follows:
 
+    git clone https://github.com/haidangtran1989/EVA.git
     cd EVA
     pip install -r requirements.txt
 
