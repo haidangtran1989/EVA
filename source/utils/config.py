@@ -8,6 +8,10 @@ TRAINING_EPOCHS = 2
 LOCAL_BATCH_SIZE = 128
 INITIAL_LEARNING_RATE = 3e-5
 USE_KNRM = (os.environ["USE_KNRM"] == "yes")
+if USE_KNRM:
+    POS_NEG_GAP_LIMIT = -0.05
+else:
+    POS_NEG_GAP_LIMIT = -0.3
 BASE_MODEL_LINK = "sebastian-hofstaetter/distilbert-dot-tas_b-b256-msmarco"
 END_TOKEN_ID = 102
 
